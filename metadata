@@ -1,0 +1,10 @@
+[Application]
+name=org.servo.servo.nightly
+runtime=org.freedesktop.Platform/x86_64/1.6
+command=servo
+
+[Context]
+shared=ipc;network;
+sockets=x11;wayland;pulseaudio;
+devices=dri;
+filesystems=host;
