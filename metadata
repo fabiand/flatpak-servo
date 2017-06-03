@@ -1,5 +1,5 @@
 [Application]
-name=org.servo.servo.nightly
+name=org.servo.Servo
 runtime=org.freedesktop.Platform/x86_64/1.6
 command=servo
 
@@ -7,4 +7,4 @@ command=servo
 shared=ipc;network;
 sockets=x11;wayland;pulseaudio;
 devices=dri;
-filesystems=host;
+#filesystems=host;
